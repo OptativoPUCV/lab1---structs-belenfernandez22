@@ -1,0 +1,27 @@
+
+ make -s
+./main.c:64:5: error: redefinition of 'main'
+int main() {
+    ^
+./main.c:28:5: note: previous definition is here
+int main() {
+    ^
+1 error generated.
+./exercises.c:91:5: error: redefinition of 'main'
+int main() {
+    ^
+./exercises.c:28:5: note: previous definition is here
+int main() {
+    ^
+1 error generated.
+make: *** [Makefile:10: main] Error 1
+exit status 2
+ 8
+0
+9bash: 8: command not found
+ 0
+
+bash: 0: command not found
+ 9
+9: command not installed, but was located via Nix.
+Would you like to run 9 from Nix and add it to your replit.nix file? [Yn]: 
